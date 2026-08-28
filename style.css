@@ -76,6 +76,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 
@@ -95,6 +96,7 @@
 .p3{
     color: yellow;
     font-size: 25px;
+    gap: 10px;
     
 }
 
@@ -125,7 +127,7 @@
 
 
 .dee{
-    color: white;
+    color: rgba(255, 255, 255, 0.651);
     font-size: 15px;
     text-align: center;
     
@@ -148,6 +150,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .btn3{
@@ -249,30 +252,34 @@
     gap: 10px;
 }
 
-.cri{
+.mobby{
+    background-color: rgba(0, 110, 255, 0.678);
+    height: 300px;
     width: 100%;
-    height: 40vh;
     justify-content: center;
-    background-position: cover;
-    align-items: center;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
     gap: 20px;
-    background-color: rgb(0, 195, 255);
-}
-
-.light{
-    padding: 10px;
-    background-color: white;
-    font-size: 10px;
-    border: none;
-}
-
-.dark{
-    padding: 10px;
-    background-color: rgba(17, 15, 15, 0.767);
     color: white;
-    font-size: 10px;
+
+}
+.jr{
+    padding: 15px;
+    color: black;
+    background-color: white;
     border: none;
+    border-radius: 5px;
+
+}
+.pr{
+     padding: 15px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+
 }
 
 
@@ -281,6 +288,7 @@
     text-align: center;
     padding: 30px 20px;
     margin-top: 50px;
+    
 }
 
 .social-icons {
@@ -289,6 +297,8 @@
     align-items: center;
     gap: 20px;
     margin-bottom: 20px;
+   
+
 }
 
 .social-icons a {
@@ -304,8 +314,8 @@
 
 
 .social-icons img {
-    width: 25px;
-    height: 25px;
+    width: 50px;
+    height: 50px;
     object-fit: contain;
 }
 
